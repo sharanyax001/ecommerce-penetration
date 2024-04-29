@@ -1,0 +1,42 @@
+/* Styles for attacks.html */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .block {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .head {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .title {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .desc {
+    margin-bottom: 20px;
+  }
+  
+  .ret {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .ret:hover {
+    background-color: #0056b3;
+  }
